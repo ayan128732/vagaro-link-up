@@ -34,9 +34,6 @@ const Index = () => {
           </video>
         </div>
         <div className="absolute inset-0 bg-background/30 z-[1]" />
-          </video>
-        </div>
-        <div className="absolute inset-0 bg-background/60 z-[1]" />
         <motion.div
           className="relative z-10 flex flex-col items-center gap-8"
           initial={{ opacity: 0, scale: 0.9 }}
