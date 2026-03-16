@@ -54,7 +54,7 @@ const Index = () => {
         >
           <img src={logo} alt="Empire Barbers" className="h-40 md:h-56 w-auto invert" />
           <div className="w-16 h-px bg-foreground" />
-          <p className="text-muted-foreground text-sm md:text-base tracking-[0.3em] uppercase max-w-lg">
+          <p className="text-foreground text-sm md:text-base tracking-[0.3em] uppercase max-w-lg">
             Parkland / Coral Springs
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-2">
