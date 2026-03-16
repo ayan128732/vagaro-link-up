@@ -27,10 +27,13 @@ const Index = () => {
             loop
             muted
             playsInline
-            className="w-full h-full object-cover grayscale opacity-30"
-            style={{ filter: 'grayscale(100%) brightness(0.4)' }}
+            className="w-full h-full object-cover"
+            style={{ filter: 'grayscale(100%) brightness(0.6)' }}
           >
             <source src={manhattanVideo} type="video/mp4" />
+          </video>
+        </div>
+        <div className="absolute inset-0 bg-background/30 z-[1]" />
           </video>
         </div>
         <div className="absolute inset-0 bg-background/60 z-[1]" />
