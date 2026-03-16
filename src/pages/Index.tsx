@@ -75,7 +75,7 @@ const Index = () => {
       </section>
 
       {/* Who We Are */}
-      <section className="py-24 px-6 bg-secondary">
+      <section className="relative py-24 px-6 bg-secondary overflow-hidden">
         <div className="max-w-6xl mx-auto">
           <motion.h2
             className="text-3xl md:text-5xl text-center mb-16 tracking-wider"
