@@ -170,7 +170,7 @@ const Index = () => {
       </section>
 
       {/* Business Hours */}
-      <section className="py-24 px-6">
+      <section id="hours" className="py-24 px-6">
         <div className="max-w-2xl mx-auto">
           <motion.div
             className="text-center mb-12"

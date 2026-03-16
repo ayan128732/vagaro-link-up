@@ -21,6 +21,21 @@ const Navbar = () => {
             Home
           </Link>
           <Link
+            to="/#hours"
+            onClick={(e) => {
+              e.preventDefault();
+              const el = document.getElementById("hours");
+              if (el) {
+                el.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/#hours";
+              }
+            }}
+            className="hover:text-foreground transition-colors text-muted-foreground"
+          >
+            Hours
+          </Link>
+          <Link
             to="/services"
             className={`hover:text-foreground transition-colors ${location.pathname === "/services" ? "text-foreground" : "text-muted-foreground"}`}
           >
